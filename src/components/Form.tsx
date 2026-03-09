@@ -1,4 +1,4 @@
-import React, { useState, ChangeEvent } from "react";
+import React, { useState, type ChangeEvent } from "react";
 import styles from "./Form.module.css";
 
 // 1. Type the helper function
@@ -12,8 +12,7 @@ export function convertToEmoji(countryCode: string): string {
 }
 
 function Form() {
-  // 2. State Hooks with TypeScript
-  // TS usually infers these correctly, but we can be explicit
+
   const [cityName, setCityName] = useState<string>("");
   const [country, setCountry] = useState<string>("");
   const [date, setDate] = useState<Date | string>(new Date());
@@ -25,7 +24,7 @@ function Form() {
         <label htmlFor="cityName">City name</label>
         <input
           id="cityName"
-          // 3. Event Typing: ChangeEvent<HTMLInputElement>
+         
           onChange={(e: ChangeEvent<HTMLInputElement>) => setCityName(e.target.value)}
           value={cityName}
         />
