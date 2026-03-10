@@ -1,5 +1,6 @@
 import React, { useState, type ChangeEvent, type FormEvent } from "react";
 import styles from "./Login.module.css";
+import PageNav from "../components/PageNav";
 
 export default function Login() {
   // 1. Explicitly type state (optional but good practice)
@@ -17,6 +18,7 @@ export default function Login() {
 
   return (
     <main className={styles.login}>
+      <PageNav />
    
       <form className={styles.form} onSubmit={handleSubmit}>
         <div className={styles.row}>

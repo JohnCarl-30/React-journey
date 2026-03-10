@@ -4,6 +4,7 @@ import Product from "./pages/Product";
 import Pricing from "./pages/Pricing";
 import Homepage from "./pages/Homepage";
 import PagenotFound from "./pages/PagenotFound";
+import Login from "./pages/Login";
 import CityList from "./components/CityList"
 
 const BASE_URL = "http://localhost:8000";
@@ -43,6 +44,7 @@ function App () {
        <Route path="pricing" element={<Pricing />} />
          <Route path="app" element={<p>App Layout</p>} />
          <Route path="cities" element={<CityList cities={cities} isLoading={isLoading} />} />
+         <Route path='/login' element={<Login />} />
          <Route path="form" element={<p>FOrm</p>} />
          <Route path="*" element={<PagenotFound />} />
       </Routes>
