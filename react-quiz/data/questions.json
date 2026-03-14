@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "question": "Which is the most popular JavaScript framework?",
+      "options": ["Angular", "React", "Svelte", "Vue"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which company invented React?",
+      "options": ["Google", "Apple", "Netflix", "Facebook"],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "What's the fundamental building block of React apps?",
+      "options": ["Components", "Blocks", "Elements", "Effects"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What's the name of the syntax we use to describe the UI in React components?",
+      "options": ["FBJ", "Babel", "JSX", "ES2015"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "How does data flow naturally in a React app?",
+      "options": [
+        "From parents to children",
+        "From children to parents",
+        "Both ways",
+        "The developers decides"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "How to pass data into a child component?",
+      "options": ["State", "Props", "PropTypes", "Parameters"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "When does React re-render a component?",
+      "options": [
+        "Whenever the component wants to",
+        "Whenever the component's props or state change",
+        "Whenever the DOM changes",
+        "Whenever the browser refreshes"
+      ],
+      "correctOption": 1,
+      "points": 30
+    },
+    {
+      "question": "Which hook is used to manage state in a functional component?",
+      "options": ["useState", "useEffect", "useRef", "useReducer"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What does the useEffect hook do?",
+      "options": [
+        "Handles form submissions",
+        "Syncs a component with an external system or side effect",
+        "Updates the DOM directly",
+        "Manages global state"
+      ],
+      "correctOption": 1,
+      "points": 30
+    },
+    {
+      "question": "What is the correct way to update state in React?",
+      "options": [
+        "Mutate the state variable directly",
+        "Use the setState function returned by useState",
+        "Use document.querySelector to modify the DOM",
+        "Reassign the state variable"
+      ],
+      "correctOption": 1,
+      "points": 30
+    },
+    {
+      "question": "What is the purpose of React's key prop when rendering lists?",
+      "options": [
+        "It improves the styling of list items",
+        "It helps React identify which items have changed",
+        "It sorts the list automatically",
+        "It is required for all JSX elements"
+      ],
+      "correctOption": 1,
+      "points": 30
+    },
+    {
+      "question": "Which hook would you use to access a DOM element directly?",
+      "options": ["useState", "useContext", "useRef", "useMemo"],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "What does the useReducer hook return?",
+      "options": [
+        "A state value and a dispatch function",
+        "A ref and a setter",
+        "A context value",
+        "A memoized callback"
+      ],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "question": "What is the purpose of React Context?",
+      "options": [
+        "To style components globally",
+        "To share state across components without prop drilling",
+        "To fetch data from APIs",
+        "To manage component lifecycle"
+      ],
+      "correctOption": 1,
+      "points": 30
+    },
+    {
+      "question": "What is a React fragment used for?",
+      "options": [
+        "To add CSS styles to components",
+        "To group multiple elements without adding an extra DOM node",
+        "To create reusable hooks",
+        "To handle errors in components"
+      ],
+      "correctOption": 1,
+      "points": 10
+    }
+  ]
+}
